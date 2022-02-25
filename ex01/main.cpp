@@ -2,13 +2,14 @@
 
 int main()
 {
-	ClapTrap jomi("Jomi");
-	ScavTrap mike("Mike");
-	jomi.printStats();
-	mike.printStats();
-	jomi.takeDamage(10);
-	jomi.printStats();
-	mike.attack("Jomi");
-	mike.printStats();
-	jomi.attack("Mike");
+	ScavTrap bot("boutfli9a");
+	bot.attack("khona li mabghash ifte7 l7odod");
+	bot.takeDamage(20);
+	bot.beRepaired(30);
+	bot.guardGate();
+	bot.takeDamage(150);
+	bot.attack("khona li mabghash ifte7 l7odod");
+	bot.takeDamage(80);
+	bot.printStats();
+	return 0;
 }

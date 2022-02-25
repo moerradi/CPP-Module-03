@@ -2,13 +2,16 @@
 
 int main()
 {
-	ClapTrap clapTrap("boutfli9a", 10,10,10);
-	clapTrap.takeDamage(10);
-	clapTrap.beRepaired(10);
+	ClapTrap clapTrap("boutfli9a");
 	clapTrap.attack("khona li mabghash ifte7 l7odod");
-	ClapTrap pakhaman("pakhaman", 100, 1, 10);
-	pakhaman.takeDamage(10);
-	pakhaman.beRepaired(10);
-	pakhaman.attack("botfli9a");
-	pakhaman.attack("botfli9a");
+	clapTrap.takeDamage(5);
+	clapTrap.beRepaired(10);
+	clapTrap.takeDamage(80);
+	clapTrap.attack("khona li mabghash ifte7 l7odod");
+	clapTrap.takeDamage(80);
+	clapTrap.printStats();
+	ClapTrap skhayfa("skhayfa", 100,1,20);
+	skhayfa.attack("botfli9a");
+	skhayfa.attack("botfli9a");
+	skhayfa.printStats();
 }

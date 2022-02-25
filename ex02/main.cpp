@@ -1,16 +1,15 @@
 #include "FragTrap.hpp"
-#include "ScavTrap.hpp"
 
 int main()
 {
-	ClapTrap jomi("Jomi");
-	ScavTrap mike("Mike");
-	FragTrap jim("Jim");
-	jomi.printStats();
-	mike.printStats();
-	jim.printStats();
-	jomi.takeDamage(10);
-	jomi.printStats();
-	mike.takeDamage(10);
-	jim.attack("Jomi");
+	FragTrap bot("boutfli9a");
+	bot.attack("khona li mabghash ifte7 l7odod");
+	bot.takeDamage(20);
+	bot.beRepaired(30);
+	bot.highFiveGuys();
+	bot.takeDamage(150);
+	bot.attack("khona li mabghash ifte7 l7odod");
+	bot.takeDamage(80);
+	bot.printStats();
+	return 0;
 }

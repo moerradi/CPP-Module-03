@@ -1,6 +1,6 @@
-NAME=ScavTrap
-FLAGS=-Wall -Wextra -Werror
-SRCS=main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
+NAME=DiamondTrap
+FLAGS=-Wall -Wextra -Werror 
+SRCS=main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 
 all: $(NAME)
 
